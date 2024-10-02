@@ -1,4 +1,4 @@
-Ex.No:6 Implement an application that uses Explicit Intent using Android
+## Ex.No:6 Implement an application that uses Explicit Intent using Android
 ## AIM:
 
 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
@@ -30,7 +30,7 @@ Registeration Number : 212222220028
 */
 ```
 ## Activity_main.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -83,9 +83,9 @@ Registeration Number : 212222220028
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.622" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ## Activity_Second.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -127,9 +127,9 @@ Registeration Number : 212222220028
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.45" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-MainActivity.java
-
+```
+## MainActivity.java
+```
 package com.example.ex_6final;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -174,9 +174,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
+```
 ## SecondActivity.Java
-
+```
 package com.example.ex_6final;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -198,9 +198,9 @@ public class SecondActivity extends AppCompatActivity {
         t1.setText(Integer.toString(result));
     }
 }
-
+```
 ## AndroidManifest.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -227,7 +227,7 @@ public class SecondActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-
+```
 ## OUTPUT
 
 Screenshot 2024-09-30 143629
