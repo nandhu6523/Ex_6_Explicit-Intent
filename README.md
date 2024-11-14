@@ -38,9 +38,7 @@ Registeration Number : 212222220028
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
-    <TextView
+ <TextView
         android:id="@+id/textview"
         android:layout_width="248dp"
         android:layout_height="55dp"
